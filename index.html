@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Naruto — PokeAPI Viewer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Naruto PokeViewer</h1>
+      <p class="subtitle">Tema Naruto — data dari PokeAPI</p>
+    </header>
+
+    <main class="container">
+      <section class="controls">
+        <input id="search" placeholder="Cari Pokémon (nama atau id). Contoh: pikachu" />
+        <button id="btnSearch">Cari</button>
+        <button id="btnReload">Muat daftar awal</button>
+      </section>
+
+      <section id="list" class="list"></section>
+
+      <aside id="detail" class="detail hidden">
+        <button id="closeDetail" class="close">×</button>
+        <div id="detailContent"></div>
+      </aside>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
