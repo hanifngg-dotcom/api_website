@@ -1,4 +1,4 @@
-# Naruto PokeViewer
+# NPokeViewer
 
 Situs statis sederhana yang memanfaatkan PokeAPI untuk menampilkan data Pokémon dengan tema visual "Naruto".
 
@@ -12,6 +12,7 @@ python3 -m http.server 8000
 
 # lalu buka http://localhost:8000
 ```
+
 
 2. Gunakan kotak pencarian untuk mencari nama atau ID Pokémon (mis. `pikachu`, `25`). Klik kartu untuk melihat detail.
 
